@@ -1,15 +1,19 @@
-#projects {
+#articles {
   background-color: $white-color;
   color: $dark-blue-text;
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   margin-top: -15rem;
   padding-top: 15rem;
 
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
+    -webkit-clip-path: none;
+    clip-path: none;
   }
 
-  .project-wrapper {
+  .article-wrapper {
     margin-bottom: 15rem;
 
     @include respond(phone) {
@@ -50,7 +54,6 @@
     }
 
     &__image {
-      width: 90%;
       margin: 0 auto;
 
       @include respond(tab-land) {
@@ -70,12 +73,13 @@
           border: 1px solid #d2d2d2;
           box-shadow: none;
           margin-bottom: 3.2rem;
+          
         }
       }
     }
-
-    & img {
-      width: 70%;
+      
+    & .fetched_img {
+      width: 80%;
     }
   }
 }

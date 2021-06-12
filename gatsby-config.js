@@ -31,5 +31,12 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
+    {
+      resolve: 'gatsby-source-medium',
+      options: {
+        username: '@libero422', // Medium user name
+        // username: '@jrodthoughts',
+      },
+    },
   ],
 };

@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  gatsby:
+    network_mode: host
+    build: 
+      context: .
+      dockerfile: gatsby.Dockerfile
+    working_dir: /work
+    command: "sh entrypoint.sh"
+    ports:
+      - "8000:8000"
+    user: 1000:1000
+    volumes:
+     - .:/work
+     - /work/node_modules/

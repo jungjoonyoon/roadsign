@@ -39,14 +39,33 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Expertized in Full stack application development and Cloud computing with detailed knowledge of A.I. methodology, and pursuing a position of Data Engineer that utilizes my experience of leading software development on software projects from conception through implementation and maintenance.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    '• Over 10 years of work experience with every different aspect of web based full stack application development including Java, Spring, Node.js, React.js, Vue.js, etc.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphTwo ||
+                    '• Has a sound understanding on the industrial application of various A.I. perspectives and processes.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo ||
+                    '• Successfully adapted to the A.I. area and made a lot of achievements especially financial areas.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo ||
+                    '• Developed Machine learning pipeline using cloud computing skills including but not limited to Kubernetes, Nginx, Docker, and AWS.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo ||
+                    '• Experienced in up to 15 various systems and ready to handle them professionally. (OS: Windows Servers, Linux, Solaris, HP-UX, and AIX / Middleware: Apache, Nginx, Weblogic, Tibco EAI, IPlanet, Websphere, ActiveMQ, RabbitMQ, and ServiceMix / Persistence: Oracle Database, MySql Server, PostgreSQL, and MS SQL Server)'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree || '• Established configuration management system using Git and even CVS and SVN.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree || 'Specialties: Java, Machine Learning, Kubernetes, Docker, Python'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
